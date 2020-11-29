@@ -1,0 +1,203 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    background-position: center center;
+    background-attachment: fixed;
+	color: #fff;
+	font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+}
+
+#banner {
+	background-color: rgba(135, 206, 250, .5);
+	height: 76px;
+	padding: 30px 70px 30px 70px;
+}
+
+#banner h1 {
+    float: left;
+    margin: 0;
+}
+
+#banner nav {
+    float: right;
+    position: relative;
+    top: 30px;
+}
+
+#banner ul {
+    margin: 0;
+}
+
+#banner nav ul li {
+    display: inline-block;
+    width: 100px;
+}
+
+#banner nav ul li a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+h2 {
+    line-height: 6;
+    margin: 0;
+    text-align: center;
+    text-shadow: 2px -2px 10px #060606;
+    text-transform: uppercase;
+}
+
+#descricao p {
+    width: 800px;
+    word-wrap: break-word;
+    text-align: justify;
+    text-indent: 50px;
+    padding-left: 550px;
+    font-size: 20px;
+    color: black;
+}
+
+#descricao h3 {
+    line-height: 6;
+    margin: 0px;
+    text-align: center;
+    text-shadow: 2px -2px 10px #060606;
+    text-transform: uppercase;
+    padding-left: 0px;
+    font-size: 30px;
+}
+
+#copyright {
+    background-color: rgba(135, 206, 250, .5);
+    padding: 35px 0 10px 0 ;
+}
+
+#copyright a {
+    display: block;
+    text-align: center;
+}
+
+#copyright p {
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Formatação das imagens do "o que é" */
+
+figure.fotos1 {
+    position: relative;
+    left: 25px;
+    border: 4px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 500px;
+}
+
+figure.fotos1 img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.fotos1 figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition-duration: 1s;
+}
+
+figure.fotos1:hover figcaption {
+    opacity: 1;
+}
+
+/* Formatação das imagens do "como usar" */
+
+figure.fotos2 {
+    position: relative;
+    top: -309px;
+    left: 650px;
+    border: 4px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 500px;
+    height: 283px;
+}
+
+figure.fotos2 img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.fotos2 figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition-duration: 1s;
+}
+
+figure.fotos2:hover figcaption {
+    opacity: 1;
+}
+
+/* Formatação das imagens da "conclusão" */
+
+figure.fotos3 {
+    position: relative;
+    top: -619px;
+    left: 1250px;
+    border: 4px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 500px;
+    height: 283px;
+}
+
+figure.fotos3 img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.fotos3 figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition-duration: 1s;
+}
+
+figure.fotos3:hover figcaption {
+    opacity: 1;
+}
+
+#video {
+    padding-left: 650px;
+    padding-bottom: 50px;
+    
+    
+}
+
+
+
+
